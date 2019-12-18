@@ -41,6 +41,8 @@ func init() {
 	// +kubebuilder:scaffold:scheme
 }
 
+// ref: https://wemp.app/posts/6ed27946-2ba0-485f-8ed6-b97d1a9cdc70
+
 func main() {
 	var metricsAddr string
 	var enableLeaderElection bool
